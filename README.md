@@ -37,8 +37,8 @@ inventory = inventory
 3. playbook.yml   
 ```
 ---
-- name: Update packages and prepare VM-2
-  hosts: VM-2
+- name: Update packages and prepare VM2
+  hosts: VM2
   tasks:
     - name: Update packages
       apt:
